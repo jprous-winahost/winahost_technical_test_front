@@ -1,8 +1,14 @@
-
+import React from "react";
+import CCAAView from "./CCAAContext/Infrastructure/View/CCAAView";
 
 const App = () => {
+
+    const ccaaView: JSX.Element = CCAAView();
+
     return (
-        <h1>¡Hola, mundo!</h1>
+        <div>
+            {ccaaView}
+        </div>
     );
 }
 
