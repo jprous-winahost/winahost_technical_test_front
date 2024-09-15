@@ -1,0 +1,65 @@
+.ccaa-view {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.ccaa-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.ccaa-button {
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    background-color: #333;
+    color: #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ccaa-button.selected {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
+
+.ccaa-button.additional-selected {
+    background-color: #28a745;
+    color: white;
+    transform: scale(1.05);
+}
+
+.ccaa-button:hover {
+    background-color: #555;
+    color: #fff;
+    transform: scale(1.03);
+}
+
+.ccaa-list {
+    margin-bottom: 20px;
+}
+
+.ccaa-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ccaa-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #444;
+}
+
+.additional-selection {
+    margin-top: 20px;
+}
+
+h3, h4 {
+    margin-bottom: 10px;
+    color: #fff;
+}
